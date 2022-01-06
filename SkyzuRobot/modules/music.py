@@ -126,13 +126,13 @@ async def ytmusic(client, message: Message):
             duration = round(infoo["duration"] / 60)
 
             if duration > 180:
-                await pablo.edit(f"❌ **durasinya kelamaan gabisa tot:v**")
+                await pablo.edit('❌ **durasinya kelamaan gabisa tot:v**')
                 is_downloading = False
                 return
             ytdl_data = ytdl.extract_info(url, download=True)
 
     except Exception as e:
-        await pablo.edit(f"**Failed To Download** \n**Error :** `{str(e)}`")
+        await pablo.edit(f'**Failed To Download** \n**Error :** `{e}`')
         return
     c_time = time.time()
     file_stark = f"{ytdl_data['id']}.mp4"
@@ -205,7 +205,7 @@ async def ytmusic(client, message: Message):
         with YoutubeDL(opts) as ytdl:
             ytdl_data = ytdl.extract_info(mo, download=True)
     except Exception as e:
-        await pablo.edit(f"**Failed To Download** \n**Error :** `{str(e)}`")
+        await pablo.edit(f'**Failed To Download** \n**Error :** `{e}`')
         return
     c_time = time.time()
     capy = f"**Song Name :** [{thum}]({mo}) \n**Requested For :** `{urlissed}` \n**Channel :** `{thums}` "
