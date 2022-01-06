@@ -1,8 +1,8 @@
 # Config files, logs and stuff
-SkyzuRobot/modules/helper_funcs/temp.txt
-SkyzuRobot/elevated_users.json
-SkyzuRobot/config.py
-SkyzuRobot/config.ini
+Vexana/modules/helper_funcs/temp.txt
+Vexana/elevated_users.json
+Vexana/config.py
+Vexana/config.ini
 log.txt
 kangsticker.png
 updates.txt
