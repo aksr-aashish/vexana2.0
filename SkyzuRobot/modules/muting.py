@@ -41,24 +41,20 @@ from telegram.utils.helpers import mention_html
 def check_user(user_id: int, bot: Bot, chat: Chat) -> Optional[str]:
 
     if not user_id:
-        reply = "⚠️ User not found"
-        return reply
+        return "⚠️ User not found"
 
     try:
         member = chat.get_member(user_id)
     except BadRequest as excp:
         if excp.message == "User not found":
-            reply = "I can't seem to find this user"
-            return reply
+            return "I can't seem to find this user"
         raise
 
     if user_id == bot.id:
-        reply = "I'm not gonna MUTE myself, How high are you?"
-        return reply
+        return "I'm not gonna MUTE myself, How high are you?"
 
     if is_user_admin(chat, user_id, member) or user_id in TIGERS:
-        reply = "Can't. Find someone else to mute but not this one."
-        return reply
+        return "Can't. Find someone else to mute but not this one."
 
     return None
 

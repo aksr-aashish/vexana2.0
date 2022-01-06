@@ -107,7 +107,7 @@ async def logo_gen(event):
     draw.text(
         (x, y), name, font=font, fill="white", stroke_width=strke, stroke_fill="black"
     )
-    flnme = f"logo.png"
+    flnme = 'logo.png'
     img.save(flnme, "png")
     await xx.edit("`Uploading`")
     if os.path.exists(flnme):
@@ -121,9 +121,10 @@ async def logo_gen(event):
         await xx.delete()
     if os.path.exists(bg_):
         os.remove(bg_)
-    if os.path.exists(font_):
-        if not font_.startswith("./SkyzuRobot/resources/fonts"):
-            os.remove(font_)
+    if os.path.exists(font_) and not font_.startswith(
+        "./SkyzuRobot/resources/fonts"
+    ):
+        os.remove(font_)
 
 
 @register(pattern="^/wlogo ?(.*)")
@@ -191,7 +192,7 @@ async def logo_(event):
     draw.text(
         (x, y), name, font=font, fill="white", stroke_width=strke, stroke_fill="black"
     )
-    flnme = f"logo.png"
+    flnme = 'logo.png'
     img.save(flnme, "png")
     await xx.edit("`Uploading`")
     if os.path.exists(flnme):
@@ -205,9 +206,10 @@ async def logo_(event):
         await xx.delete()
     if os.path.exists(bg_):
         os.remove(bg_)
-    if os.path.exists(font_):
-        if not font_.startswith("./SkyzuRobot/resources/fonts"):
-            os.remove(font_)
+    if os.path.exists(font_) and not font_.startswith(
+        "./SkyzuRobot/resources/fonts"
+    ):
+        os.remove(font_)
 
 
 __mod_name__ = "Logomaker"

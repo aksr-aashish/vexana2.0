@@ -40,7 +40,7 @@ async def mentionall(event):
     elif event.is_reply:
         mode = "text_on_reply"
         msg = await event.get_reply_message()
-        if msg == None:
+        if msg is None:
             return await event.respond(
                 "I can't mention members for older messages! (messages which are sent before I'm added to group)"
             )
@@ -53,7 +53,7 @@ async def mentionall(event):
     usrnum = 0
     usrtxt = ""
     async for usr in Client.iter_participants(chat_id):
-        if not chat_id in spam_chats:
+        if chat_id not in spam_chats:
             break
         usrnum += 1
         usrtxt += f"[{usr.first_name}](tg://user?id={usr.id}) "
@@ -74,14 +74,13 @@ async def mentionall(event):
 
 @Client.on(events.NewMessage(pattern="^/cancel$"))
 async def cancel_spam(event):
-    if not event.chat_id in spam_chats:
+    if event.chat_id not in spam_chats:
         return await event.respond("There is no proccess on going...")
-    else:
-        try:
-            spam_chats.remove(event.chat_id)
-        except:
-            pass
-        return await event.respond("Stopped.")
+    try:
+        spam_chats.remove(event.chat_id)
+    except:
+        pass
+    return await event.respond("Stopped.")
 
 
 __mod_name__ = "Mentions"

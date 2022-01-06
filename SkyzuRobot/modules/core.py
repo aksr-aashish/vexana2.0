@@ -16,9 +16,7 @@ client = tbot
 
 @register(pattern=r"^/send ?(.*)")
 async def Prof(event):
-    if event.sender_id == OWNER_ID:
-        pass
-    else:
+    if event.sender_id != OWNER_ID:
         return
     thumb = water
     message_id = event.message.id
