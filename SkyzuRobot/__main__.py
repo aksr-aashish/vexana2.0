@@ -807,7 +807,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}",
-                f"""**Skyzu Robot Started!**
+                f"""**Vexana Robot Started!**
 
 **Python:** `{memek()}`
 **Telegram Library:** `v{peler}`""",
