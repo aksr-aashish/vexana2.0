@@ -19,7 +19,7 @@ from telegram.ext.dispatcher import run_async
 from telegram.error import BadRequest
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from Vexana import (
+from vexana import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -32,16 +32,16 @@ from Vexana import (
     StartTime,
     SUPPORT_CHAT,
 )
-from Vexana.__main__ import STATS, TOKEN, USER_INFO
-from Vexana.modules.sql import SESSION
-import Vexana.modules.sql.userinfo_sql as sql
-from Vexana.modules.disable import DisableAbleCommandHandler
-from Vexana.modules.sql.global_bans_sql import is_user_gbanned
-from Vexana.modules.sql.afk_sql import is_afk, set_afk, check_afk_status
-from Vexana.modules.sql.users_sql import get_user_num_chats
-from Vexana.modules.helper_funcs.chat_status import sudo_plus
-from Vexana.modules.helper_funcs.extraction import extract_user
-from Vexana import telethn as YoneTelethonClient, TIGERS, DRAGONS, DEMONS
+from vexana.__main__ import STATS, TOKEN, USER_INFO
+from vexana.modules.sql import SESSION
+import vexana.modules.sql.userinfo_sql as sql
+from vexana.modules.disable import DisableAbleCommandHandler
+from vexana.modules.sql.global_bans_sql import is_user_gbanned
+from vexana.modules.sql.afk_sql import is_afk, set_afk, check_afk_status
+from vexana.modules.sql.users_sql import get_user_num_chats
+from vexana.modules.helper_funcs.chat_status import sudo_plus
+from vexana.modules.helper_funcs.extraction import extract_user
+from vexana import telethn as YoneTelethonClient, TIGERS, DRAGONS, DEMONS
 
 
 def no_by_per(totalhp, percentage):
