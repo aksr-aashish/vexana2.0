@@ -20,7 +20,6 @@
     <a href="https://github.com/aksr-aashish/vexana2.0/issues"> <img src="https://img.shields.io/github/issues/aksr-aashish/vexana2.0?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/aksr-aashish/vexana2.0/network/members"> <img src="https://img.shields.io/github/forks/aksr-aashish/vexana2.0?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
-  [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)]
 </p>
 
 
@@ -28,6 +27,7 @@
 <h6 align="center"><b>⭐ If You like our repo and enjoyed the bot Plz Consider Giving Us A Star⭐ </b></h9>
 
 ## Available On Telegram As [Vexana_Robot](https://t.me/vexana_robot) 💜
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)]
 
 ## How to setup/deploy.
 
