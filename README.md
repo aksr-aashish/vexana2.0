@@ -15,7 +15,7 @@
 ### 💙 Heroku 💙
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/aksr-aashish/vexana2.0"><img src="https://img.shields.io/badge/Deployment%20Of%20Vexana-informational?style=for-the-badge&logo=Vexana" width="500"></a></p>
 <p align="center">
-<a href="https://app.codacy.com/manual/aksr-aashish/aksr-aashish/vexana2.0/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
+<a href="https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html"> <img src="https://img.shields.io/license/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=GPLv3 licensey&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
     <a href="https://github.com/aksr-aashish/vexana2.0"> <img src="https://img.shields.io/github/repo-size/aksr-aashish/vexana2.0?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/aksr-aashish/vexana2.0/commits/aksr-aashish"> <img src="https://img.shields.io/github/last-commit/aksr-aashish/vexana2.0?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/aksr-aashish/vexana2.0/issues"> <img src="https://img.shields.io/github/issues/aksr-aashish/vexana2.0?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
