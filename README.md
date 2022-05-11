@@ -15,12 +15,12 @@
 ### 💙 Heroku 💙
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/aksr-aashish/vexana2.0"><img src="https://img.shields.io/badge/Deployment%20Of%20Vexana-informational?style=for-the-badge&logo=Vexana" width="500"></a></p>
 <p align="center">
-<a> [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)</a>
     <a href="https://github.com/aksr-aashish/vexana2.0"> <img src="https://img.shields.io/github/repo-size/aksr-aashish/vexana2.0?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/aksr-aashish/vexana2.0/commits/aksr-aashish"> <img src="https://img.shields.io/github/last-commit/aksr-aashish/vexana2.0?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/aksr-aashish/vexana2.0/issues"> <img src="https://img.shields.io/github/issues/aksr-aashish/vexana2.0?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/aksr-aashish/vexana2.0/network/members"> <img src="https://img.shields.io/github/forks/aksr-aashish/vexana2.0?color=red&logo=github&logoColor=green&style=for-the-badge" /></a>  
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=yellow&label=telethon&logo=python&logoColor=green&style=for-the-badge" /></a>
+  [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)]
 </p>
 
 
