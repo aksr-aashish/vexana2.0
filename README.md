@@ -13,9 +13,9 @@
 
 ### Click Below Image To Deploy On
 ### 💙 Heroku 💙
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/aksr-aashish/vexana3.0"><img src="https://telegra.ph/file/4a7d5037bcdd1e74a517a.jpg" width="50"></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/aksr-aashish/vexana2.0"><img src="https://img.shields.io/badge/Deploy%20To%20OVexana-informational?style=for-the-badge&logo=Vexana" width="50"></a></p>
 <p align="center">
-<a href="https://app.codacy.com/manual/aksr-aashish/aksr-aashish/vexana1.0/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
+<a href="https://app.codacy.com/manual/aksr-aashish/aksr-aashish/vexana2.0/dashboard"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=brightgreen&logo=codacy&logoColor=green&style=for-the-badge" alt="Codacy" /></a>
     <a href="https://github.com/aksr-aashish/vexana2.0"> <img src="https://img.shields.io/github/repo-size/aksr-aashish/vexana2.0?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/aksr-aashish/vexana2.0/commits/aksr-aashish"> <img src="https://img.shields.io/github/last-commit/aksr-aashish/vexana2.0?color=brown&logo=github&logoColor=green&style=for-the-badge" /></a>
     <a href="https://github.com/aksr-aashish/vexana2.0/issues"> <img src="https://img.shields.io/github/issues/aksr-aashish/vexana2.0?color=blueviolet&logo=github&logoColor=green&style=for-the-badge" /></a>
