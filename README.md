@@ -26,7 +26,7 @@
 
 <h6 align="center"><b>⭐ If You like our repo and enjoyed the bot Plz Consider Giving Us A Star⭐ </b></h9>
 
-## Available On Telegram As [Vexana_Robot](https://t.me/vexana_robot) 💜
+## Available On Telegram As [Vexana Robot](https://t.me/vexana_robot) 💜
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)]
 
 ## How to setup/deploy.
